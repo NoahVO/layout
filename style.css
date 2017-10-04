@@ -1,0 +1,299 @@
+body {
+    font-family: "Lato", sans-serif;
+    background-image: url("https://www.whatismyscreenresolution.com/bg.jpg");
+    background-size: 5%
+}
+header {
+    margin-left: 0px;
+    width: 1500px;
+    border: 5px solid black;
+    padding: 5px;
+    background-color: #37baba;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 20px;
+    display: flex;
+}
+
+.index {
+    padding: 200px;
+}
+
+.over {
+    padding: 200px;
+}
+
+.nieuws {
+    padding: 200px;
+}
+header.nieuwstab {
+    margin-left: 720px;
+    width: 48px;
+    border: 5px solid black;
+    padding: 5px;
+    background-color: #37baba;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 20px;
+    display: flex;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+p {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+
+nav {
+  padding: 10 10px;
+}
+
+.tabcontent {  
+    width: 600px;
+    height: 500px;
+    border: 2px solid black;
+    padding: 25px;   
+    margin-left: 435px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.reclame1 {
+    position: absolute;
+    top: 160px;
+    left: 16px;
+    height: 500px;
+    width: 200px;
+}
+
+.reclame2 {
+    position: absolute;
+    top: 160px;
+    right: 16px;
+    height: 500px;
+    width: 200px;
+}
+
+#home {
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 425px;
+    background-color: #0093ff;   
+    border: 2px solid black;
+}
+
+
+#over {
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 425px;
+    background-color: #0093ff;
+}
+
+
+@import "compass/css3";
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+#flex-item {
+  padding: 100px;
+  width: 50px;
+  height: 50px; 
+  line-height: 20px;  
+}
+
+.flex-item1 {
+  position: absolute;
+  left: 500px;
+  top: 150px;
+  background-image: url("https://adodenhaag.nl/images/logos/teams/ajax.png");
+  border: 2px solid black;
+  background-size: 250px;
+}
+
+.flex-item2 {
+  position: absolute;
+  left: 800px;
+  top: 150px;
+  background-image: url("https://seeklogo.com/images/F/feyenoord-rotterdam-logo-EC093ABED1-seeklogo.com.png");
+  border: 2px solid black;
+  background-size: 250px;
+}
+
+.flex-item3 {
+  position: absolute;
+  left: 500px;
+  top: 450px;
+  background-image: url("https://adodenhaag.nl/images/logos/teams/psv.png");
+  border: 2px solid black;
+  background-size: 250px;
+}
+
+.flex-item4 {
+  position: absolute;
+  left: 800px;
+  top: 450px;
+  background-image: url("https://decom.nl/wp-content/uploads/2016/09/Vitesse-Arnhem-Logo-300x300-2.png");
+  border: 2px solid black;
+  background-size: 250px;
+}
+
+.leesmeer1 {
+    position: absolute;
+    bottom: 359px;
+    right: 786px;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 2px;
+    border: 2px solid black;
+    background-color: white;
+}
+
+
+.leesmeer2 {
+    position: absolute;
+    bottom: 359px;
+    right: 486px;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 2px;
+    border: 2px solid black;
+    background-color: white;
+}
+
+
+.leesmeer3 {
+    position: absolute;
+    bottom: 59px;
+    right: 786px;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 2px;
+    border: 2px solid black;
+    background-color: white;
+}
+
+
+.leesmeer4 {
+    position: absolute;
+    bottom: 59px;
+    right: 486px;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 2px;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.teamimg {
+    position: absolute;
+    left: 600px;
+    bottom: 0px;
+    height: 150px;
+}
+
+.teamimg1 {
+    position: absolute;
+    left: 620px;
+    bottom: 0px;
+    height: 120px;
+}
+
+.ajax1 {
+    position: absolute;
+    bottom: 578px;
+    right: 989px;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 2px;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.feyenoord1 {
+    position: absolute;
+    bottom: 578px;
+    right: 638px;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 2px;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.psv1 {
+    position: absolute;
+    bottom: 278px;
+    right: 994px;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 2px;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.vitesse1 {
+    position: absolute;
+    bottom: 278px;
+    right: 665px;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 2px;
+    border: 2px solid black;
+    background-color: white;
+}
+
+footer {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 15px;
+}
+
+a:hover {
+    color: black;
+}
